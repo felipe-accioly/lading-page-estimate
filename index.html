@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Outfit:wght@300;400;600&family=Oxanium:wght@400;700&family=Public+Sans:wght@300;400;700;800&family=Roboto+Mono:ital,wght@0,100;0,200;1,100;1,200&family=Roboto:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
+      <link rel="shortcut icon" href="src/image/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/variables.css" />
@@ -30,17 +30,15 @@
           </ul>
         </nav>
 
-
         <nav class="nav-mobile">
           <div class="center">
             <div></div>
           </div>
-          <div class="container">
-            <ul class="nav navegation-mobile">
-              <li><a href="https://estimate-dev.vercel.app/login" target="_blank">Entrar</a></li>
-              <li><a class="register" href="https://estimate-dev.vercel.app/register" target="_blank">Cadastrar</a></li>
-            </ul>
-          </div>
+
+          <ul class="nav navegation-mobile ">
+            <li><a href="https://estimate-dev.vercel.app/login" target="_blank">Entrar</a></li>
+            <li><a class="register" href="https://estimate-dev.vercel.app/register" target="_blank">Cadastrar</a></li>
+          </ul>
         </nav>
       </header>
 
@@ -58,7 +56,7 @@
               eficiente do trabalho necessário.
             </p>
 
-            <a href="https://estimate-dev.vercel.app/register" class="btn" target="_blank">Junte-se ao EstiMate</a>
+            <a href="https://estimate-dev.vercel.app/login" class="btn" target="_blank">Junte-se ao EstiMate</a>
           </div>
         </div>
 
@@ -159,7 +157,7 @@
       </div>
     </section>
 
-   <section class="faq">
+    <section class="faq">
       <h1>FAQ</h1>
 
       <div class="container">
@@ -167,73 +165,128 @@
           <img src="src/image/cliente.png" alt="" class="client" />
 
           <ul class="questions">
-            <li>
-              <p>
-                Como EstiMate assegura a precisão nas recompensas distribuídas
-                por estimativas corretas?
+            <li class="question">
+              <a class="btn">
+                <h2>
+                  Como EstiMate assegura a precisão nas recompensas distribuídas
+                  por estimativas corretas?
+                </h2>
+
+                <img src="src/image/+.png" alt="" class="view" />
+              </a>
+
+              <p class="info">
+                A precisão das recompensas distribuídas por estimativas corretas é assegurada através de um sistema de verificação e validação das estimativas. Os desenvolvedores são incentivados a fornecer estimativas precisas através de um mecanismo de feedback e recompensa, onde ganham uma quantia caso acertem a estimativa.
               </p>
-              <a href="#"><img src="src/image/+.png" alt="" class="view" /></a>
             </li>
 
-            <li>
-              <p>
-                Existem limitações ou critérios específicos para as tarefas que
-                posso estimar na plataforma?
+            <li class="question">
+              <a class="btn">
+                <h2>
+                  Existem limitações ou critérios específicos para as tarefas
+                  que posso estimar na plataforma?
+                </h2>
+
+                <img src="src/image/+.png" alt="" class="view" />
+              </a>
+
+              <p class="info">
+                As tarefas que podem ser estimadas na plataforma podem ter certas limitações ou critérios específicos, como a necessidade de serem relacionadas ao desenvolvimento front-end, conforme o escopo atual da plataforma. Além disso, pode haver requisitos de detalhamento das tarefas, como a descrição completa e as tecnologias envolvidas.
               </p>
-              <a href="#"><img src="src/image/+.png" alt="" class="view" /></a>
             </li>
 
-            <li>
-              <p>
-                Como a plataforma garante a confidencialidade e a propriedade
-                intelectual das informações dos projetos estimados?
+            <li class="question">
+              <a class="btn">
+                <h2>
+                  Como a plataforma garante a confidencialidade e a propriedade
+                  intelectual das informações dos projetos estimados?
+                </h2>
+
+                <img src="src/image/+.png" alt="" class="view" />
+              </a>
+
+              <p class="info">
+                A confidencialidade e a propriedade intelectual das informações dos projetos estimados são garantidas através de medidas de segurança e políticas de privacidade implementadas pela plataforma. Os detalhes dos projetos são compartilhados apenas com os desenvolvedores e analistas envolvidos diretamente na estimativa, e podem ser protegidos por acordos de confidencialidade.
               </p>
-              <a href="#"><img src="src/image/+.png" alt="" class="view" /></a>
             </li>
 
-            <li>
-              <p>
-                Qual é a frequência de atualização dos projetos disponíveis para
-                estimativa e como posso ser notificado sobre novas
-                oportunidades?
+            <li class="question">
+              <a class="btn">
+                <h2>
+                  Qual é a frequência de atualização dos projetos disponíveis
+                  para estimativa e como posso ser notificado sobre novas
+                  oportunidades?
+                </h2>
+
+                <img src="src/image/+.png" alt="" class="view" />
+              </a>
+
+              <p class="info">
+                A frequência de atualização dos projetos disponíveis para estimativa pode variar, mas a plataforma pode oferecer notificações aos desenvolvedores sobre novas oportunidades com base em seus interesses e habilidades cadastradas.
               </p>
-              <a href="#"><img src="src/image/+.png" alt="" class="view" /></a>
             </li>
           </ul>
         </div>
 
         <div class="questions-container-left">
           <ul class="questions">
-            <li>
-              <p>
-                Como EstiMate garante a qualidade e a confiabilidade das
-                estimativas fornecidas pelos desenvolvedores?
+            <li class="question">
+              <a class="btn">
+                <h2>
+                  Como EstiMate garante a qualidade e a confiabilidade das
+                  estimativas fornecidas pelos desenvolvedores?
+                </h2>
+
+                <img src="src/image/+.png" alt="" class="view" />
+              </a>
+
+              <p class="info">
+                A qualidade e a confiabilidade das estimativas fornecidas pelos desenvolvedores são garantidas através de um sistema de feedback e revisão das estimativas. Os desenvolvedores podem ser avaliados com base na precisão de suas estimativas em relação ao tempo real necessário para concluir as tarefas.
               </p>
-              <a href="#"><img src="src/image/+.png" alt="" class="view" /></a>
+            </li>
+            <li class="question">
+              <a class="btn">
+                <h2>
+                  Existe um limite ou escala de custo para as tarefas que podem
+                  ser estimadas através da plataforma?
+                </h2>
+
+                <img src="src/image/+.png" alt="" class="view" />
+              </a>
+
+              <p class="info">
+                Pode haver um limite ou escala de custo para as tarefas que podem ser estimadas através da plataforma, dependendo do escopo e da complexidade das tarefas. Isso pode ser determinado pela plataforma com base na existencia ou não da task solicitada e a necessidade de contratação de um analista.
+              </p>
             </li>
 
-            <li>
-              <p>
-                Existe um limite ou escala de custo para as tarefas que podem
-                ser estimadas através da plataforma?
-              </p>
-              <a href="#"><img src="src/image/+.png" alt="" class="view" /></a>
-            </li>
+            <li class="question">
+              <a class="btn">
+                <h2>
+                  De que maneira a plataforma ajuda a alinhar as estimativas dos
+                  desenvolvedores com o escopo real e as necessidades do
+                  projeto?
+                </h2>
 
-            <li>
-              <p>
-                De que maneira a plataforma ajuda a alinhar as estimativas dos
-                desenvolvedores com o escopo real e as necessidades do projeto?
-              </p>
-              <a href="#"><img src="src/image/+.png" alt="" class="view" /></a>
-            </li>
+                <img src="src/image/+.png" alt="" class="view" />
+              </a>
 
-            <li>
-              <p>
-                Como EstiMate contribui para a otimização do tempo e dos
-                recursos durante o planejamento do projeto?
+              <p class="info">
+                A plataforma ajuda a alinhar as estimativas dos desenvolvedores com o escopo real e as necessidades do projeto através de uma descrição detalhada das tarefas e dos projetos disponíveis para estimativa. Os desenvolvedores podem revisar as informações fornecidas sobre o projeto antes de fazerem suas estimativas, garantindo que estejam alinhadas com os requisitos específicos do projeto.
               </p>
-              <a href="#"><img src="src/image/+.png" alt="" class="view" /></a>
+            </li>
+            <li class="question">
+              <a class="btn">
+                <h2>
+                  Como EstiMate contribui para a otimização do tempo e dos
+                  recursos durante o planejamento do projeto?
+                </h2>
+
+                <img src="src/image/+.png" alt="" class="view" />
+              </a>
+
+              <p class="info">
+                EstiMate contribui para a otimização do tempo e dos recursos durante o planejamento do projeto ao fornecer estimativas precisas e realistas, permitindo que as empresas planejem de forma mais eficiente e eficaz. Além disso, ao consolidar o processo de estimativa em uma única plataforma, a EstiMate ajuda a reduzir o tempo e os recursos necessários para a realização das estimativas, tornando o processo mais ágil e eficiente.
+              </p>
             </li>
           </ul>
 
@@ -242,12 +295,12 @@
       </div>
     </section>
 
-     <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="text-button">
           <h2>Mude a forma que você estima seus projetos</h2>
 
-          <a href="https://estimate-dev.vercel.app/register" target="_blank">Começe agora mesmo</a>
+          <a href="https://estimate-dev.vercel.app/login" target="_blank">Começe agora mesmo</a>
         </div>
 
         <div class="container-img">
@@ -256,8 +309,6 @@
       </div>
     </footer>
 
-    <script src="./src/js/index.js">
-
-    </script>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
